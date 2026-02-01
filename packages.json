@@ -1,0 +1,22 @@
+[
+  {
+    "package": "femtograd",
+    "url": "https://github.com/queelius/femtograd"
+  },
+  {
+    "package": "algebraic.mle",
+    "url": "https://github.com/queelius/algebraic.mle"
+  },
+  {
+    "package": "algebraic.dist",
+    "url": "https://github.com/queelius/algebraic.dist"
+  },
+  {
+    "package": "hypothesize",
+    "url": "https://github.com/queelius/hypothesize"
+  },
+  {
+    "package": "likelihood.model",
+    "url": "https://github.com/queelius/likelihood.model"
+  }
+]
