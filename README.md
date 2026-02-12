@@ -15,6 +15,7 @@ This is the package registry for [queelius.r-universe.dev](https://queelius.r-un
 | [likelihood.model](https://github.com/queelius/likelihood.model) | Likelihood models |
 | [compositional.mle](https://github.com/queelius/compositional.mle) | Compositional MLE |
 | [nabla](https://github.com/queelius/nabla) | Nabla operator |
+| [likelihood.model.series.md](https://github.com/queelius/likelihood.model.series.md) | Likelihood models for masked series data |
 
 ## Installation
 

@@ -28,10 +28,6 @@
     "url": "https://github.com/queelius/nabla"
   },
   {
-    "package": "md.tools",
-    "url": "https://github.com/queelius/md.tools"
-  },
-  {
     "package": "likelihood.model.series.md",
     "url": "https://github.com/queelius/likelihood.model.series.md"
   },
