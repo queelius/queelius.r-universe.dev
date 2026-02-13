@@ -34,5 +34,9 @@
   {
     "package": "dfr.dist",
     "url": "https://github.com/queelius/dfr.dist"
+  },
+  {
+    "package": "dfr.dist.series",
+    "url": "https://github.com/queelius/dfr.dist.series"
   }
 ]
