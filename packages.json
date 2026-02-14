@@ -32,11 +32,15 @@
     "url": "https://github.com/queelius/maskedcauses"
   },
   {
-    "package": "dfr.dist",
-    "url": "https://github.com/queelius/dfr.dist"
+    "package": "flexhaz",
+    "url": "https://github.com/queelius/flexhaz"
   },
   {
-    "package": "dfr.dist.series",
-    "url": "https://github.com/queelius/dfr.dist.series"
+    "package": "serieshaz",
+    "url": "https://github.com/queelius/serieshaz"
+  },
+  {
+    "package": "maskedhaz",
+    "url": "https://github.com/queelius/maskedhaz"
   }
 ]
