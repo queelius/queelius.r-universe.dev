@@ -42,5 +42,9 @@
   {
     "package": "maskedhaz",
     "url": "https://github.com/queelius/maskedhaz"
+  },
+  {
+    "package": "kofn",
+    "url": "https://github.com/queelius/kofn"
   }
 ]
