@@ -20,6 +20,10 @@
     "url": "https://github.com/queelius/likelihood.model"
   },
   {
+    "package": "likelihood.contr",
+    "url": "https://github.com/queelius/likelihood.contr"
+  },
+  {
     "package": "compositional.mle",
     "url": "https://github.com/queelius/compositional.mle"
   },
