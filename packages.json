@@ -1,5 +1,9 @@
 [
   {
+    "package": "dist.structure",
+    "url": "https://github.com/queelius/dist.structure"
+  },
+  {
     "package": "femtograd",
     "url": "https://github.com/queelius/femtograd"
   },
