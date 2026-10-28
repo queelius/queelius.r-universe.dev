@@ -1,0 +1,3 @@
+"backend","n_requests","n_completed","n_timeout","n_failure","timeout_fraction","failure_fraction","slo_seconds","n_slo_success","n_slo_unknown","n_slo_miss","slo_success_lower","slo_success_upper"
+"alpha",6,3,2,1,0.333333333333333,0.166666666666667,2,2,1,3,0.333333333333333,0.5
+"beta",6,4,1,1,0.166666666666667,0.166666666666667,2,4,0,2,0.666666666666667,0.666666666666667

@@ -1,0 +1,29 @@
+Autodiff ecosystem audit, 2026-10-28
+
+nabla: already CRAN 0.7.1, published 2026-02-10. Baseline full test suite passes.
+Source: https://cran.r-project.org/web/packages/nabla/index.html
+Useful role: pure-R low-dimensional higher derivatives and pedagogical nested duals.
+Limitations: no dual_vector arithmetic/matrix algebra/base distribution dispatch; D evaluates p^k original functions at order k. Existing README overclaims arbitrary R code.
+Confirmed/fixed under nabla 0.7.2 working tree:
+- powers evaluated at zero returned NaN above polynomial degree;
+- .is_zero() used is.numeric before dual class, dropping nested tangent curvature;
+- cummax/cummin scalar derivatives incorrectly zero, with old tests encoding incorrect answer.
+
+femtograd: not present in CRAN available.packages index. Baseline suite running.
+Recommendation: keep pedagogical, do not submit before correcting these:
+1. R/optimize.R:197-204 tryCatch handler assigns step in local handler environment. Singular Hessian warns then errors; fallback sign also reversed by subsequent negation.
+   newton_raphson(function(p) p[[1]], list(val(1)), max_iter=1)
+2. R/optimize.R:75-111 and 185-232 return stale objective/gradient/Hessian when iteration limit reached after update.
+   gradient_ascent(function(p) -p[[1]]^2,list(val(2)),lr=.1,max_iter=1): params=1.6, reported value=-4, actual=-2.56.
+   Newton -x^4 max_iter=1: params=4/3, reported value=-16, actual=-3.160494; reported Hessian=-48, actual=-21.3333.
+3. R/stability.R:324-332 exp_safe clamp backward is not the derivative of primal. exp_safe(val(5), max_val=2): derivative exp(2), expected 0.
+4. R/stability.R:210-226 div_safe denominator clamp similarly returns wrong derivative; div_safe(val(1),val(.1),eps=1): denominator derivative=-1, expected 0.
+5. Stability operations lack dual methods: hessian(function(p) logsumexp(p[[1]]),list(val(1))) and analogous softmax error. Thus advertised stable operations cannot automatically be used with fit(), which always computes Hessian.
+6. Reimplements own fit/coefficient/inference/hypothesis/optimizer layer independent of ecosystem generics; should clarify standalone educational scope instead of positioning as production default AD/statistics stack.
+7. coverage.xml says 88.27% but is dated 2025-12-11 and omits 2026 changes; not current evidence. No .github directory/CI found.
+
+Existing alternative worth differentiating from: salad 1.2 on CRAN (2024-12-18), forward AD for vector/matrix R expressions. Source https://cran.r-project.org/web/packages/salad/index.html. nabla's higher-order scalar composability is a more defensible differentiator than general R compatibility; do not claim unique AD capability.
+
+Final verification:
+- nabla 0.7.2: 770 installed-package assertions pass, 0 warnings/skips; 92.63% current test coverage. R CMD check --as-cran: 0 errors, 0 warnings, 2 environment notes (time verification; missing tidy/V8 for HTML validation). Vignettes and PDF manual pass. Tar /tmp/nabla-release-0.7.2/nabla_0.7.2.tar.gz; SHA256 38fb46dce6d659ce20ed2ee72f9d3563d2d8a8f991df56b7ab61306e83f42bd8.
+- femtograd baseline full suite passes with 5 small-bootstrap warnings; current coverage 90.65%, lowest profile.R 72.26%, stability.R 82.52%. Confirmed bugs above remain unfixed by instruction. Current coverage artifacts /tmp/femtograd-audit-coverage.rds and /tmp/femtograd-audit-uncovered.csv.

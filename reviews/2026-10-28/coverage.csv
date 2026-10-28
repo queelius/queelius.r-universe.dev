@@ -1,0 +1,15 @@
+package,line_coverage_percent,scope
+algebraic.dist,95.89,baseline
+algebraic.mle,95.51,patched
+compositional.mle,85.93,patched
+dist.structure,84.86,patched
+femtograd,90.65,baseline
+flexhaz,99.26,patched
+hypothesize,100,baseline
+kofn,,full stress test incomplete
+likelihood.contr,100,patched
+likelihood.model,98.88,patched
+maskedcauses,,suite passed; coverage not rerun
+maskedhaz,,suite passed; coverage not rerun
+nabla,92.63,patched
+serieshaz,,suite passed; coverage not rerun

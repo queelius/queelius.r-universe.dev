@@ -1,0 +1,158 @@
+{
+  "collected_at": "2026-10-28",
+  "records": [
+    {
+      "package": "compositional.mle",
+      "commit": "4a1968368888b6a429a2e04d234b1aebf3bd5622",
+      "run_id": 40639406807,
+      "job_id": 122653775406,
+      "status": "completed",
+      "conclusion": "success",
+      "url": "https://github.com/queelius/compositional.mle/actions/runs/40639406807/job/122653775406",
+      "superseded": false,
+      "evidence": [
+        "2026-10-28T05:41:42.8274669Z * DONE (pak)",
+        "2026-10-28T05:41:57.2706268Z   \"r_version\": \"R Under development (unstable) (2026-10-26 r90766)\",",
+        "2026-10-28T05:49:01.1423319Z  version  R Under development (unstable) (2026-10-26 r90766)",
+        "2026-10-28T05:49:01.1648878Z   args: c(\"--no-manual\", \"--as-cran\")",
+        "2026-10-28T05:49:01.1681147Z \u001b[36;1mcheck_results <- rcmdcheck::rcmdcheck(args = (c(\"--no-manual\", \"--as-cran\")), build_args = (c(\"--no-manual\",\"--compact-vignettes=gs+qpdf\")), error_on = (\"warning\"), check_dir = (\"check\"))\u001b[0m",
+        "2026-10-28T05:49:13.6396924Z * using R Under development (unstable) (2026-10-26 r90766)",
+        "2026-10-28T05:49:13.7140966Z * using options \u2018--no-manual --as-cran\u2019",
+        "2026-10-28T05:49:48.5339605Z * DONE",
+        "2026-10-28T05:49:48.5343580Z Status: OK",
+        "2026-10-28T05:49:48.6999340Z R Under development (unstable) (2026-10-26 r90766) -- \"Unsuffered Consequences\""
+      ]
+    },
+    {
+      "package": "nabla",
+      "commit": "9bf864c77cf6e56ed61f19dfcdec50b61939caf7",
+      "run_id": 40639814651,
+      "job_id": 122655076761,
+      "status": "completed",
+      "conclusion": "success",
+      "url": "https://github.com/queelius/nabla/actions/runs/40639814651/job/122655076761",
+      "superseded": false,
+      "evidence": [
+        "2026-10-28T05:46:05.3056590Z * DONE (pak)",
+        "2026-10-28T05:46:18.1369906Z   \"r_version\": \"R Under development (unstable) (2026-10-26 r90766)\",",
+        "2026-10-28T05:50:47.2878308Z  version  R Under development (unstable) (2026-10-26 r90766)",
+        "2026-10-28T05:50:47.3062509Z   args: c(\"--no-manual\", \"--as-cran\")",
+        "2026-10-28T05:50:47.3096222Z \u001b[36;1mcheck_results <- rcmdcheck::rcmdcheck(args = (c(\"--no-manual\", \"--as-cran\")), build_args = (c(\"--no-manual\",\"--compact-vignettes=gs+qpdf\")), error_on = (\"warning\"), check_dir = (\"check\"))\u001b[0m",
+        "2026-10-28T05:51:08.5113945Z * using R Under development (unstable) (2026-10-26 r90766)",
+        "2026-10-28T05:51:08.5708924Z * using options \u2018--no-manual --as-cran\u2019",
+        "2026-10-28T05:52:07.7572387Z * DONE",
+        "2026-10-28T05:52:07.7577903Z Status: OK",
+        "2026-10-28T05:52:07.8871636Z R Under development (unstable) (2026-10-26 r90766) -- \"Unsuffered Consequences\""
+      ]
+    },
+    {
+      "package": "flexhaz",
+      "commit": "4e12316b5615458000956076fa06b016b49ed3bb",
+      "run_id": 40639851421,
+      "job_id": 122655206790,
+      "status": "completed",
+      "conclusion": "success",
+      "url": "https://github.com/queelius/flexhaz/actions/runs/40639851421/job/122655206790",
+      "superseded": false,
+      "evidence": [
+        "2026-10-28T05:46:28.5114095Z * DONE (pak)",
+        "2026-10-28T05:46:40.5582244Z   \"r_version\": \"R Under development (unstable) (2026-10-26 r90766)\",",
+        "2026-10-28T05:51:05.5099064Z  version  R Under development (unstable) (2026-10-26 r90766)",
+        "2026-10-28T05:51:05.5265519Z   args: c(\"--no-manual\", \"--as-cran\")",
+        "2026-10-28T05:51:05.5296446Z \u001b[36;1mcheck_results <- rcmdcheck::rcmdcheck(args = (c(\"--no-manual\", \"--as-cran\")), build_args = (c(\"--no-manual\",\"--compact-vignettes=gs+qpdf\")), error_on = (\"warning\"), check_dir = (\"check\"))\u001b[0m",
+        "2026-10-28T05:51:20.5263245Z * using R Under development (unstable) (2026-10-26 r90766)",
+        "2026-10-28T05:51:20.5735785Z * using options \u2018--no-manual --as-cran\u2019",
+        "2026-10-28T05:51:58.3318782Z * DONE",
+        "2026-10-28T05:51:58.3322099Z Status: OK",
+        "2026-10-28T05:51:58.4682295Z R Under development (unstable) (2026-10-26 r90766) -- \"Unsuffered Consequences\""
+      ]
+    },
+    {
+      "package": "likelihood.contr",
+      "commit": "406b0c6a44c3cef46a330d73f598f7310a62f66d",
+      "run_id": 40639892379,
+      "job_id": 122655341494,
+      "status": "completed",
+      "conclusion": "success",
+      "url": "https://github.com/queelius/likelihood.contr/actions/runs/40639892379/job/122655341494",
+      "superseded": false,
+      "evidence": [
+        "2026-10-28T05:46:45.0737970Z * DONE (pak)",
+        "2026-10-28T05:46:58.9503238Z   \"r_version\": \"R Under development (unstable) (2026-10-26 r90766)\",",
+        "2026-10-28T05:52:08.3321015Z  version  R Under development (unstable) (2026-10-26 r90766)",
+        "2026-10-28T05:52:08.3521925Z   args: c(\"--no-manual\", \"--as-cran\")",
+        "2026-10-28T05:52:08.3554155Z \u001b[36;1mcheck_results <- rcmdcheck::rcmdcheck(args = (c(\"--no-manual\", \"--as-cran\")), build_args = (c(\"--no-manual\",\"--compact-vignettes=gs+qpdf\")), error_on = (\"warning\"), check_dir = (\"check\"))\u001b[0m",
+        "2026-10-28T05:52:15.5395695Z * using R Under development (unstable) (2026-10-26 r90766)",
+        "2026-10-28T05:52:15.5724042Z * using options \u2018--no-manual --as-cran\u2019",
+        "2026-10-28T05:52:40.0778687Z * DONE",
+        "2026-10-28T05:52:40.0783822Z Status: OK",
+        "2026-10-28T05:52:40.2247267Z R Under development (unstable) (2026-10-26 r90766) -- \"Unsuffered Consequences\""
+      ]
+    },
+    {
+      "package": "likelihood.model",
+      "commit": "a9df86ae279af6692912774795a2110f884a0b3d",
+      "run_id": 40639760431,
+      "job_id": 122654908797,
+      "status": "completed",
+      "conclusion": "success",
+      "url": "https://github.com/queelius/likelihood.model/actions/runs/40639760431/job/122654908797",
+      "superseded": true,
+      "evidence": [
+        "2026-10-28T05:45:35.0842243Z * DONE (pak)",
+        "2026-10-28T05:45:46.7496537Z   \"r_version\": \"R Under development (unstable) (2026-10-26 r90766)\",",
+        "2026-10-28T05:49:49.1728582Z  version  R Under development (unstable) (2026-10-26 r90766)",
+        "2026-10-28T05:49:49.1909356Z   args: c(\"--no-manual\", \"--as-cran\")",
+        "2026-10-28T05:49:49.1935990Z \u001b[36;1mcheck_results <- rcmdcheck::rcmdcheck(args = (c(\"--no-manual\", \"--as-cran\")), build_args = (\"--no-manual\"), error_on = (\"warning\"), check_dir = (\"check\"))\u001b[0m",
+        "2026-10-28T05:49:55.5412524Z * using R Under development (unstable) (2026-10-26 r90766)",
+        "2026-10-28T05:49:55.5797444Z * using options \u2018--no-manual --as-cran\u2019",
+        "2026-10-28T05:50:20.2882665Z * DONE",
+        "2026-10-28T05:50:20.2885329Z Status: OK"
+      ]
+    },
+    {
+      "package": "dist.structure",
+      "commit": "fea129e92424cc337ccd8b7eb2475c9b24f3c1bf",
+      "run_id": 40640555189,
+      "job_id": 122657440916,
+      "status": "completed",
+      "conclusion": "success",
+      "url": "https://github.com/queelius/dist.structure/actions/runs/40640555189/job/122657440916",
+      "superseded": false,
+      "evidence": [
+        "ubuntu-latest (devel)\tRun r-lib/actions/check-r-package@v2\t2026-10-28T05:59:41.1113422Z * using R Under development (unstable) (2026-10-26 r90766)",
+        "ubuntu-latest (devel)\tRun r-lib/actions/check-r-package@v2\t2026-10-28T05:59:41.1642632Z * using options \u2018--no-manual --as-cran\u2019",
+        "ubuntu-latest (devel)\tRun r-lib/actions/check-r-package@v2\t2026-10-28T06:00:12.3187105Z Status: OK"
+      ]
+    },
+    {
+      "package": "algebraic.mle",
+      "commit": "5f082c481e19666d79f20c3cc82cad049b0005ad",
+      "run_id": 40640406846,
+      "job_id": 122656973839,
+      "status": "completed",
+      "conclusion": "success",
+      "url": "https://github.com/queelius/algebraic.mle/actions/runs/40640406846/job/122656973839",
+      "superseded": false,
+      "evidence": [
+        "ubuntu-latest (devel)\tRun r-lib/actions/check-r-package@v2\t2026-10-28T05:58:40.5711015Z * using R Under development (unstable) (2026-10-26 r90766)",
+        "ubuntu-latest (devel)\tRun r-lib/actions/check-r-package@v2\t2026-10-28T05:58:40.6175310Z * using options \u2018--no-manual --as-cran\u2019",
+        "ubuntu-latest (devel)\tRun r-lib/actions/check-r-package@v2\t2026-10-28T05:59:52.7811115Z Status: OK"
+      ]
+    },
+    {
+      "package": "likelihood.model",
+      "commit": "6a4a02b81787a368639dbf689bc9bf1d7956a9e9",
+      "job_id": 122673698013,
+      "conclusion": "success",
+      "superseded": false,
+      "url": "https://github.com/queelius/likelihood.model/actions/runs/40645641026/job/122673698013",
+      "evidence": [
+        "2026-10-28T06:45:08.6119572Z * using R Under development (unstable) (2026-10-26 r90766)",
+        "2026-10-28T06:45:08.6605130Z * using options \u2018--no-manual --as-cran\u2019",
+        "2026-10-28T06:45:29.9943725Z Status: OK"
+      ]
+    }
+  ],
+  "pending": []
+}

@@ -1,0 +1,133 @@
+[
+  {
+    "package": "dist.structure",
+    "version": "0.5.1",
+    "source_commit": "3c8845f69730d88997a51b14d80a39929befd620",
+    "sha256": "a1d85cf9a406fac438467a7369b05ff81a992831045e3cf5d770cb90d2338f54",
+    "local_check": {
+      "errors": 0,
+      "warnings": 0,
+      "notes": 2,
+      "r_version": "4.3.3",
+      "platform": "Ubuntu 24.04.3 x86_64"
+    },
+    "cran_upload": "successful",
+    "maintainer_confirmation": "confirmed; CRAN success page verified",
+    "acceptance": "pending CRAN review",
+    "winbuilder": "R-devel upload succeeded (FTP 226); result pending",
+    "r_devel": "Status: OK",
+    "r_devel_evidence": "r-devel.json"
+  },
+  {
+    "package": "compositional.mle",
+    "version": "2.0.1",
+    "source_commit": "4a1968368888b6a429a2e04d234b1aebf3bd5622",
+    "sha256": "9916049875a288112fbe5d8d8064da22857665c82b45a947ea3dc24408bdb7ce",
+    "local_check": {
+      "errors": 0,
+      "warnings": 0,
+      "notes": 2,
+      "r_version": "4.3.3",
+      "platform": "Ubuntu 24.04.3 x86_64"
+    },
+    "cran_upload": "successful",
+    "maintainer_confirmation": "confirmed; CRAN success page verified",
+    "acceptance": "pending CRAN review",
+    "winbuilder": "R-devel upload succeeded (FTP 226); result pending",
+    "r_devel": "Status: OK",
+    "r_devel_evidence": "r-devel.json"
+  },
+  {
+    "package": "algebraic.mle",
+    "version": "2.0.3",
+    "source_commit": "5f082c481e19666d79f20c3cc82cad049b0005ad",
+    "sha256": "0deafe8a1bd7f0bd8bfb3b1bd480b40ebeaff29ee070096561ace99aba82f4d3",
+    "local_check": {
+      "errors": 0,
+      "warnings": 0,
+      "notes": 2,
+      "r_version": "4.3.3",
+      "platform": "Ubuntu 24.04.3 x86_64"
+    },
+    "cran_upload": "successful",
+    "maintainer_confirmation": "confirmed; CRAN success page verified",
+    "acceptance": "pending CRAN review",
+    "winbuilder": "R-devel upload succeeded (FTP 226); result pending",
+    "r_devel": "Status: OK",
+    "r_devel_evidence": "r-devel.json"
+  },
+  {
+    "package": "flexhaz",
+    "version": "0.5.3",
+    "source_commit": "4e12316b5615458000956076fa06b016b49ed3bb",
+    "sha256": "f45d1af438fe14a7525d4da9add36ec5c203cfc78a4cb69c766c7357a0bbf6be",
+    "local_check": {
+      "errors": 0,
+      "warnings": 0,
+      "notes": 2,
+      "r_version": "4.3.3",
+      "platform": "Ubuntu 24.04.3 x86_64"
+    },
+    "cran_upload": "successful",
+    "maintainer_confirmation": "confirmed; CRAN success page verified",
+    "acceptance": "pending CRAN review",
+    "winbuilder": "R-devel upload succeeded (FTP 226); result pending",
+    "r_devel": "Status: OK",
+    "r_devel_evidence": "r-devel.json"
+  },
+  {
+    "package": "nabla",
+    "version": "0.7.2",
+    "source_commit": "9bf864c77cf6e56ed61f19dfcdec50b61939caf7",
+    "sha256": "38fb46dce6d659ce20ed2ee72f9d3563d2d8a8f991df56b7ab61306e83f42bd8",
+    "local_check": {
+      "errors": 0,
+      "warnings": 0,
+      "notes": 2,
+      "r_version": "4.3.3",
+      "platform": "Ubuntu 24.04.3 x86_64"
+    },
+    "cran_upload": "successful",
+    "maintainer_confirmation": "confirmed; CRAN success page verified",
+    "acceptance": "pending CRAN review",
+    "winbuilder": "R-devel upload succeeded (FTP 226); result pending",
+    "r_devel": "Status: OK",
+    "r_devel_evidence": "r-devel.json"
+  },
+  {
+    "package": "likelihood.contr",
+    "version": "0.2.0",
+    "source_commit": "406b0c6a44c3cef46a330d73f598f7310a62f66d",
+    "sha256": "4b8b4a3dea1fbee016622deb6f4d178a4311084e69d69c6b543d03b92d99f2f3",
+    "local_check": {
+      "errors": 0,
+      "warnings": 0,
+      "notes": 2,
+      "r_version": "4.3.3",
+      "platform": "Ubuntu 24.04.3 x86_64"
+    },
+    "cran_upload": "successful",
+    "maintainer_confirmation": "confirmed; CRAN success page verified",
+    "acceptance": "pending CRAN review",
+    "winbuilder": "R-devel upload succeeded (FTP 226); result pending",
+    "r_devel": "Status: OK",
+    "r_devel_evidence": "r-devel.json"
+  },
+  {
+    "package": "likelihood.model",
+    "version": "1.0.2",
+    "source_commit": "6a4a02b81787a368639dbf689bc9bf1d7956a9e9",
+    "sha256": "969feb2f1b0c501b6638208f8542d8423b6655e3ff94e72ec645c97f082920fd",
+    "local_check": {
+      "errors": 0,
+      "warnings": 0,
+      "notes": 2,
+      "r_version": "4.3.3"
+    },
+    "cran_upload": "successful",
+    "maintainer_confirmation": "confirmed; CRAN success page verified",
+    "acceptance": "pending CRAN review",
+    "r_devel": "Status: OK",
+    "r_devel_evidence": "r-devel.json"
+  }
+]
