@@ -1,23 +1,34 @@
-# Statistical tools for incomplete observations
+# Statistical inference from incomplete observations
 
-Build explicit likelihoods from exact measurements, timeouts, histogram bins,
-and partially observed failures. This registry distributes Alexander Richard
-Towell's R packages through [R-universe](https://queelius.r-universe.dev/).
+Research software for likelihood inference when observations reveal only part
+of what happened. The masked-failure work is the scientific center: system
+failure times may be observed while the failed component is known only to lie
+in a candidate set. Distribution, optimization and inference packages support
+that work and can be used independently. This registry distributes Alexander
+Richard Towell's R packages through [R-universe](https://queelius.r-universe.dev/).
 Thirteen packages are also on CRAN (verified 2026-10-28).
 
-## Start with a question
+## Read or reproduce one result
 
-**Does this service or AI backend meet a latency target?** Try the
-[Deadline benchmark app](examples/deadline-benchmark/README.md): feed it a CSV
-of completed requests, timeouts and failures to obtain per-backend SLO bounds.
-It uses base R and includes synthetic data and tests. For custom parametric
-models and counted telemetry bins, start with
-[likelihood.contr](https://github.com/queelius/likelihood.contr) and its
-[timeout benchmarking walkthrough](https://github.com/queelius/likelihood.contr/blob/master/vignettes/timeout-benchmarking.Rmd).
-Completed requests, right-censored timeouts, and counted histogram bins can
-contribute to the same model. Report observed deadline success separately from
-model-dependent p95 extrapolation. The example uses synthetic data and is not
-a provider ranking. Counted bins and the demo are new in version 0.2.0.
+**What can remain identifiable when the diagnostic reports are unreliable?**
+The [exponential total-rate companion](https://github.com/queelius/mdrelax/tree/master/paper/reproduction/exponential-total-rate)
+gives a short argument, a reproducible example, and controls showing where the
+claim stops. The standard exponential fitted likelihood identifies the total
+rate from failures and exposure even when component rates change or become
+unidentified. Selectively discarding observations can still bias the population
+inference. This is an existing result, with newly checked computational evidence.
+
+Read the [paper, exact source pin and verification record](https://github.com/queelius/research-records/tree/main/records/masked-exponential-total-rate)
+for its assumptions, citation and archive. The companion belongs to `mdrelax`,
+a related research package maintained in its own repository; it is not added to
+this distribution registry by this closeout.
+
+The [maintenance scope](https://github.com/queelius/mdrelax/blob/master/MAINTENANCE.md)
+keeps this a bounded research contribution. It does not imply that every
+package, paper claim or simulation has been revalidated. Existing distribution
+and compatibility responsibilities remain with each package's repository.
+
+## Start with a question
 
 **Which components determine system reliability?** Start with
 [dist.structure](https://github.com/queelius/dist.structure) for topology and
@@ -30,6 +41,14 @@ custom time-varying hazard.
 [algebraic.mle](https://github.com/queelius/algebraic.mle) for pooling and
 propagating estimates, or [nabla](https://github.com/queelius/nabla) for
 higher derivatives of supported scalar R expressions.
+
+**How do different observation types contribute to a likelihood?** Start with
+[likelihood.contr](https://github.com/queelius/likelihood.contr) for exact,
+censored and counted observations. The [deadline example](examples/deadline-benchmark/README.md)
+illustrates honest sample bounds for completed requests, timeouts and failures.
+Its synthetic data are a teaching example, not a validated LLM evaluation
+product or provider ranking. The [timeout walkthrough](https://github.com/queelius/likelihood.contr/blob/master/vignettes/timeout-benchmarking.Rmd)
+separates observed deadline success from model-dependent tail extrapolation.
 
 For standard survival analysis, consider `survival`; for standard parametric
 censored fitting, consider `fitdistrplus` or `flexsurv`. This ecosystem is useful
